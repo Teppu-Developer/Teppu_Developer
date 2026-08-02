@@ -10,62 +10,56 @@
 
 # Deep Learning Projects
 
-    I               Machine Learning & AI
-        i               Linear Regression Line Fitting
-        ii              Simple Data Plotter
-        iii             Simple Classifer
-        iv              Train/Test Split
-        v               Simple Decision Tree
-        vi              Mini Neural Net
-        vii             Image Loader
-        viii            Simple CNN
-        ix              Text Sentiment Classification
-        x               Tiny MP API
+    I               Systems Programming 4
+        i               File Watcher            > Monitors Filesystem Changes
+        ii              Process Manager         > Lists, Kills, and Inspects Processes
+        iii             Custom Shell            > Basic Command Interpreter
+        iv              Memory Tool             > Heap/Stack Visualization
+        
+        Θ               System Utility Suite    
+                            > Cohesive toolset demonstrating OS interaction, concurrency, and performance awareness
 
-    II              Game Development & Interactive Systems
-        i               Simple 2D Movement
-        ii              Simple Platformer
-        iii             Top-Down Shooter
-        iv              Tilemap Level System
-        v               Inventory & Item System
-        vi              Simple NPC AI [Behavior Trees]
-        vii             Physics-Driven Puzzle
-        viii            Multiplayer Prototype
-        ix              Shader Effects & VFX
+    II              Computer Architecture
+    III             Networking 4
+        i               TCP Chat Server         > Multiple Client Handling
+        ii              HTTP Client/Server      > Request Parsing & Response Handling
+        iii             Packet Sniffer          > Inspect Raw Packets
+        iv              Custom Protocol Demo    > Simple Message Framing
 
-    III             Networking & Cloud Computing
-        i               Hello TCP
-        ii              Simple Socket Chat
-        iii             Simple HTTP Server
-        iv              Simple REST API
-        v               JSON Storage API
-        vi              Docker Hello World
-        vii             Simple Cloud Upload
-        viii            Simple Load Balancer
-        ix              Tiny Monitoring
-        x               Mini Deployment
+        Θ               Distributed Messaging System
+                            > Multi-Node communication with reliability guarantees
 
-    IV              Software Design
-        i               Simple Calculator
-        ii              Simple Class System
-        iii             Simple Inventory
-        iv              Simple Logger
-        v               Config Loader
-        vi              Plugin Loader
-        vii             Event System
-        viii            Simple MVC
-        ix              Simple API Wrapper
-        x               Tiny Architecture Diagram
 
-    V               Cybersecurity
-        i               Lite Port Scanner
-        ii              Hash Tester
-        iii             Password Strength Checker
-        iv              Simple Encryption
-        v               Simple Input Sanitizer
-        vi              Mini Packet Sniffer
-        vii             Basic Vulnerable Page
-        viii            Safe SQL Query
-        ix              Threat Checklist
-        x               Simple Hardening Script
+    IV              Data Structure & Algorithms 6
+        i               Tree Library            > BST, AVL, or Red-Black
+        ii              Graph Algorithms        > BFS, DFS, Dijkstra
+        iii             Sorting Visualizer      > Animations & Complexity Notes
+        iv              Hash Map Implementation > Chaining & Open Addressing
+        v               Pathfinding Demo        > A* & Greedy Search
+        vi              Programming Notebook    > Annottated Examples
 
+        Θ               Full DSA Library
+                            > Documented, tested, benchmarked data-structure and algorithm suite
+                        
+    V               Control Systems
+    VI              Operating Systems Design 4
+        i               Thread Scheduler        > Round-Robin, Priority, etc
+        ii              Memory Allocator        > Malloc/Free Style
+        iii             Filesystem Mock         > Directories, Inodes, Metadata
+        iv              Process Lifecycle Demo  > Fork/Exec Simulation
+
+        Θ               OS Subsystem
+                            > A minimal kernel-like environment with scheduling, memory, and basic I/O
+
+    VII             Embedded Systems Design 4
+        i               LED + Sensor Loop       > Microcontroller Basics
+        ii              Button Input Handler    > Debouncing & Interrupts
+        iii             Display Output Demo     > LCD/OLED Text & Graphics
+        iv              Basic Firmware Loop     > State machine & Timing
+
+        Θ               Full Embedded Application
+                            > Sensor input, processing, display output, and stable firmware loop
+
+    VIII            Digital Signal Processing
+    IX              Concurrency & Parallelism
+    X               Compiler & Language Theory
