@@ -10,7 +10,7 @@
 
 # Deep Learning Projects
 
-    I               Systems Programming 4
+    I               Systems Programming
         i               File Watcher            > Monitors Filesystem Changes
         ii              Process Manager         > Lists, Kills, and Inspects Processes
         iii             Custom Shell            > Basic Command Interpreter
@@ -20,7 +20,7 @@
                             > Cohesive toolset demonstrating OS interaction, concurrency, and performance awareness
 
     II              Computer Architecture
-    III             Networking 4
+    III             Networking
         i               TCP Chat Server         > Multiple Client Handling
         ii              HTTP Client/Server      > Request Parsing & Response Handling
         iii             Packet Sniffer          > Inspect Raw Packets
@@ -30,7 +30,7 @@
                             > Multi-Node communication with reliability guarantees
 
 
-    IV              Data Structure & Algorithms 6
+    IV              Data Structure & Algorithms
         i               Tree Library            > BST, AVL, or Red-Black
         ii              Graph Algorithms        > BFS, DFS, Dijkstra
         iii             Sorting Visualizer      > Animations & Complexity Notes
@@ -42,7 +42,7 @@
                             > Documented, tested, benchmarked data-structure and algorithm suite
                         
     V               Control Systems
-    VI              Operating Systems Design 4
+    VI              Operating Systems Design
         i               Thread Scheduler        > Round-Robin, Priority, etc
         ii              Memory Allocator        > Malloc/Free Style
         iii             Filesystem Mock         > Directories, Inodes, Metadata
@@ -51,7 +51,7 @@
         Θ               OS Subsystem
                             > A minimal kernel-like environment with scheduling, memory, and basic I/O
 
-    VII             Embedded Systems Design 4
+    VII             Embedded Systems Design
         i               LED + Sensor Loop       > Microcontroller Basics
         ii              Button Input Handler    > Debouncing & Interrupts
         iii             Display Output Demo     > LCD/OLED Text & Graphics
