@@ -13,9 +13,8 @@
     I               Data Structures
         i               Arrays & Linked Lists
         ii              Hash Maps & Dictionaries
-        iii             Trees
-        iv              Graph
-        v               Stacks & Queues
+        iii             Trees & Graphs
+        iv              Stacks & Queues
 
     II              Algorithms
         i               Sorting
@@ -44,6 +43,39 @@
         iii             HTTP
         iv              DNS
         v               Sockets
+
+    VI              Language Diversity
+        i               Systems & Low-Level
+                            > Rust
+                            > C
+                            > Go
+                            > C++
+                            > Lua
+        ii              Web Full-Stack
+                            > Typescript
+                            > JavaScript
+                            > Java
+                            > C#
+                            > PHP
+                            > Ruby
+                            > Perl
+        iii             Mobile & Cross-Platform
+                            > Dart (Flutter)
+                            > Kotlin
+                            > Swift
+        iv              Distributed Systems
+                            > Elixir
+                            > Scala
+                            > Haskell
+        v               Data Analytics
+                            > Python
+                            > Julia
+                            > R
+        vi              Domain-Specific
+                            > SQL
+                            > Bash
+
+
 
     0               Proof of Understanding
         i               SignalCache
