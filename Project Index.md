@@ -10,56 +10,63 @@
 
 # Deep Learning Projects
 
-    I               Systems Programming
-        i               File Watcher            > Monitors Filesystem Changes
-        ii              Process Manager         > Lists, Kills, and Inspects Processes
-        iii             Custom Shell            > Basic Command Interpreter
-        iv              Memory Tool             > Heap/Stack Visualization
-        
-        Θ               System Utility Suite    
-                            > Cohesive toolset demonstrating OS interaction, concurrency, and performance awareness
+    I               Data Structures
+        i               Arrays & Linked Lists
+        ii              Hash Maps & Dictionaries
+        iii             Trees
+        iv              Graph
+        v               Stacks & Queues
 
-    II              Computer Architecture
-    III             Networking
-        i               TCP Chat Server         > Multiple Client Handling
-        ii              HTTP Client/Server      > Request Parsing & Response Handling
-        iii             Packet Sniffer          > Inspect Raw Packets
-        iv              Custom Protocol Demo    > Simple Message Framing
+    II              Algorithms
+        i               Sorting
+        ii              Searching
+        iii             Graph Algorithms
+        iv              Recursion
+        v               Complexity
+    
+    III             Computer Architecture
+        i               CPU, Registers, ALU
+        ii              Memory Hierarchy
+        iii             Instruction Sets
+        iv              Pipelines
+        v               Compiling
 
-        Θ               Distributed Messaging System
-                            > Multi-Node communication with reliability guarantees
+    IV              Operating Systems
+        i               Processes & Threads
+        ii              Scheduling
+        iii             Concurrency & Synronization
+        iv              Virtual Memory
+        v               File Systems
 
+    V               Networking
+        i               OSI Model
+        ii              TCP vs UDP
+        iii             HTTP
+        iv              DNS
+        v               Sockets
 
-    IV              Data Structure & Algorithms
-        i               Tree Library            > BST, AVL, or Red-Black
-        ii              Graph Algorithms        > BFS, DFS, Dijkstra
-        iii             Sorting Visualizer      > Animations & Complexity Notes
-        iv              Hash Map Implementation > Chaining & Open Addressing
-        v               Pathfinding Demo        > A* & Greedy Search
-        vi              Programming Notebook    > Annottated Examples
-
-        Θ               Full DSA Library
-                            > Documented, tested, benchmarked data-structure and algorithm suite
-                        
-    V               Control Systems
-    VI              Operating Systems Design
-        i               Thread Scheduler        > Round-Robin, Priority, etc
-        ii              Memory Allocator        > Malloc/Free Style
-        iii             Filesystem Mock         > Directories, Inodes, Metadata
-        iv              Process Lifecycle Demo  > Fork/Exec Simulation
-
-        Θ               OS Subsystem
-                            > A minimal kernel-like environment with scheduling, memory, and basic I/O
-
-    VII             Embedded Systems Design
-        i               LED + Sensor Loop       > Microcontroller Basics
-        ii              Button Input Handler    > Debouncing & Interrupts
-        iii             Display Output Demo     > LCD/OLED Text & Graphics
-        iv              Basic Firmware Loop     > State machine & Timing
-
-        Θ               Full Embedded Application
-                            > Sensor input, processing, display output, and stable firmware loop
-
-    VIII            Digital Signal Processing
-    IX              Concurrency & Parallelism
-    X               Compiler & Language Theory
+    0               Proof of Understanding
+        i               SignalCache
+                            A small service that fetches data from a public API, caches it locally, and exposes a tiny query interface.
+                            > Auto-Refresh Background API Worker
+                            > Cache with TL + Eviction Policy
+                            > Endpoint returns cached data
+                            > Graceful degradation when APU is down
+        ii              FlowSim
+                            A command-line tool that simulates how an OS schedules tasks, handles queues, and resolves contention.
+                            > Task Generator
+                            > Scheduler Implimenting 2-3 Algorithms
+                            > Timeline Output Showing Task States
+                            > Export Logs for Visualization
+        iii             PathNet
+                            A tool that builds a graph from network endpoints and computes optimal routes, latencies, and failure paths.
+                            > Load a Topology File (JSON, YAML)
+                            > Compute Shortest Path
+                            > Simulate Node Failure
+                            > Visualize Graph in Browser
+        iv              TraceBox
+                            A tiny system that collects logs from multiple “client” processes, sends them over the network to a central server, stores them efficiently, and runs analysis queries.
+                            > Client Log Generation
+                            > Multi-Client Handling
+                            > Store Logs in Server Memory
+                            > Expose Query Endpoint Allowing Log Query
